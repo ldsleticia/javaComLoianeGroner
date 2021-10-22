@@ -10,5 +10,15 @@ public class Arrays{
     
         System.out.println("O valor da temperatura do dia 1 é " + temperaturas[0]);
         System.out.println("O valor da temperatura do dia 1 é " + temperaturas[3]);
+        System.out.println("O array suporta " + temperaturas.length + "dados");
+        System.out.println("O endereço de memória que o array está apontando é " + temperaturas);
+
+        for(int i = 0; i < temperaturas.length; i++){
+            System.out.println("Temos as seguintes temperaturas guardadas em nosso banco de dados " + temperaturas[i]);
+        }
+
+        for(double temp : temperaturas){
+            System.out.println(temp);
+        }
     }
 }
